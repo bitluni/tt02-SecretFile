@@ -22,3 +22,4 @@ always@(posedge clk) begin
         counter2 <= counter2 + 1'd1;
     end
 end
+endmodule
