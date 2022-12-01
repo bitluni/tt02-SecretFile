@@ -6,7 +6,7 @@ module charRom (
 
 assign col = rom[{face,index}];
 
-localparam logic [7:0] rom [511:0] = {
+localparam [511:0][7:0] rom = {
 8'b10000000,
 8'b10000000,
 8'b10000000,
