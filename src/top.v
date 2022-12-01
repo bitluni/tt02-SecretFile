@@ -1,4 +1,4 @@
-module option25 (
+module option23 (
     input [7:0] io_in,
     output reg [7:0] io_out
 );
