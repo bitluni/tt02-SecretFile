@@ -322,7 +322,6 @@ always@(posedge clk) begin
 				9'b111100101: io_out <= 8'b00100000;
 				9'b111100110: io_out <= 8'b01000000;
 				default: io_out <= 8'b00000000;
-				default: io_out <= 8'b00000000;
             endcase;
         end
     end else begin
