@@ -16,9 +16,9 @@ documentation:
   author:       "bitluni"      # Your name
   discord:      "bitluni#0204"      # Your discord handle - make sure to include the # part as well
   title:        "Option23"      # Project title
-  description:  "Character ROM"      # Short description of what your project does
-  how_it_works: "clock: clocks out character columns or shifts in data. din = b1011111: show buffer. din < b1011111 shift in ASCII characters (din-32). b11xxxxx : shift in graphic column xxxxx"      # Longer description of how the project works
-  how_to_test:  "shift in some data and set din b1011111 to clock out characters and graphics"      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
+  description:  "Character ROM and bitmap shifter for POV displays"      # Short description of what your project does
+  how_it_works: "clock: clocks out character columns or shifts in data. din = 1111111: show characters and bitmaps column by column. din = 1xxxxxx shift in ASCII character x. din = b10xxxxx : shift in bitmap column xxxxx"      # Longer description of how the project works
+  how_to_test:  "Shift in some data and set din = 1111111 to clock out characters and graphics"      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   external_hw:  "Pink LEDs"      # Describe any external hardware needed
   language:     "Verilog" # other examples include Verilog, Amaranth, VHDL, etc
   doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository
