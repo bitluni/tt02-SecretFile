@@ -3,7 +3,7 @@ module option23 (
     output reg [7:0] io_out
 );
 
-parameter WORD_COUNT = 16;
+parameter WORD_COUNT = 20;
 
 wire clk = io_in[0];
 wire [6:0] din = io_in[7:1];
